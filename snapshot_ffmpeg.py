@@ -25,7 +25,6 @@ OUTPUT_DIR = args.o
 
 # try to get r_frame_rate, pix_fmt, nb_frames to name output images
 probe_data = ffmpeg.probe(TEST_FILE)
-pj = json.dumps(probe_data)
 
 for stream in probe_data["streams"]:
     if stream["codec_type"] == "video":
