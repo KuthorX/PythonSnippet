@@ -1,9 +1,9 @@
 '''
-Python 3.7
+Python 3.7+
 
 Require ffmpeg-python==0.2.0
 
-Get snapshot based on video bitrate.
+Get snapshot based on video frame rate.
 
 Run python snapshot_ffmpeg.py -h to get more info.
 '''
